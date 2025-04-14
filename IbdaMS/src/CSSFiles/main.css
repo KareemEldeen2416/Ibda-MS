@@ -1,0 +1,67 @@
+@font-face{
+    font-family: "Zain";
+    src: url("Zain-Bold.ttf");
+}
+
+
+.arabicTitle{
+    -fx-font-family: "Zain";
+    -fx-font-size: 36px;
+}
+
+
+TextField{
+    -fx-font-family: "Zain";
+    -fx-border-style: none;
+    -fx-border-width: 0 0 5px 0;
+    -fx-border-color: transparent transparent #440381 transparent;
+    -fx-focus-color: transparent;
+    -fx-text-box-border:transparent;
+    -fx-font-size: 18px;
+}
+
+PasswordField{
+    -fx-font-family: "Zain";
+    -fx-border-style: none;
+    -fx-border-width: 0 0 5px 0;
+    -fx-border-color: transparent transparent #440381 transparent;
+    -fx-focus-color: transparent;
+    -fx-text-box-border:transparent;
+    -fx-font-size: 18px;
+}
+
+Hyperlink{
+    -fx-font-family: "Zain";
+    -fx-font-size: 14px;
+}
+
+
+.backButton{
+    -fx-font-family: "Zain";
+    -fx-font-size: 18px;
+}
+
+ /*purple: #440381*/
+ /*yellow: #fad600*/
+
+TextField:hover{
+    -fx-border-color: transparent transparent #fad600 transparent;
+}
+
+PasswordField:hover{
+    -fx-border-color: transparent transparent #fad600 transparent;
+}
+
+/*.arabicFont{
+    -fx-font-family: "Zain";
+    -fx-font-size: 20px;
+}*/
+
+
+
+
+.arabicButton{
+    -fx-background-color: #fad600;
+    -fx-font-family:"Zain";
+    -fx-font-size: 22px;
+}
