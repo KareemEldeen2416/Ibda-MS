@@ -15,7 +15,7 @@ TextField{
     -fx-border-style: none;
     -fx-border-width: 0 0 5px 0;
     -fx-border-color: transparent transparent #440381 transparent;
-    -fx-focus-color: transparent;
+    -fx-focus-color: #440381;
     -fx-text-box-border:transparent;
     -fx-font-size: 18px;
 }
@@ -25,7 +25,7 @@ PasswordField{
     -fx-border-style: none;
     -fx-border-width: 0 0 5px 0;
     -fx-border-color: transparent transparent #440381 transparent;
-    -fx-focus-color: transparent;
+    -fx-focus-color: #440381;
     -fx-text-box-border:transparent;
     -fx-font-size: 18px;
 }
@@ -64,4 +64,14 @@ PasswordField:hover{
     -fx-background-color: #fad600;
     -fx-font-family:"Zain";
     -fx-font-size: 22px;
+}
+
+
+
+.serviceButton{
+    -fx-background-image: url("/ibdams/ibdalogo.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-color: blue;
 }

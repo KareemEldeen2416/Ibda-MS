@@ -20,7 +20,7 @@ public class IbdaMS extends Application{
     
     @Override
     public void start(Stage stage) throws IOException{
-        Parent root = FXMLLoader.load(getClass().getResource("/windows/login.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/windows/dashboard.fxml"));
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.setTitle("Login-Ibda Academy MS");
